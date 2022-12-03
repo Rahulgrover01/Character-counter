@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #ff0066;
+
+}
+.container{
+    /* border: 1px solid white; */
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+textarea{
+    border: 1px solid purple;
+    width: 100%;
+    background-color: #f05f83;
+    /* border: none; */
+    outline: none;
+    font-size: 16px;
+    font-weight: 560;
+    padding: 20px;
+    line-height: 30px;
+    resize: none;
+    border-radius: 3px;
+
+}
+
+.count-result{
+    /* font-family: 'Times New Roman', Times, serif; */
+    float: right;
+    margin-top: 10px;
+}
